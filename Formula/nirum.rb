@@ -5,9 +5,9 @@ class Nirum < Formula
 
   desc "Nirum: IDL compiler and RPC/distributed object framework for microservices"
   homepage "https://nirum.org/"
-  url "https://github.com/spoqa/nirum/archive/0.3.1.tar.gz"
-  sha256 "1728fe222702b509895375b6b2f48f278dbb0af5ff6e0c2a8f5d9df9606177cc"
-  head "https://github.com/spoqa/nirum.git"
+  url "https://github.com/nirum-lang/nirum/archive/0.4.1.tar.gz"
+  sha256 "ff4ad69d665cf8309f5fca8683ed54a912d45794b56615afe1e02c8166def222"
+  head "https://github.com/nirum-lang/nirum.git"
 
   depends_on "ghc" => :build
   depends_on "haskell-stack" => :build
